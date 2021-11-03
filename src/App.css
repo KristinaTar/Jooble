@@ -1,38 +1,63 @@
 .App {
-  text-align: center;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(28px + 2vmin);
+    font-family: sans-serif;
+    color: #424242;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body{
+    background: #f1f1f1;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.citiesList{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 1rem;
+    margin: 40px;
+    border: none;
+    background: white;
+    box-shadow: 0 0 0 1px rgb(20 20 31 / 20%), 0 1px 3px 0 rgb(20 20 31 / 20%);
+    border-radius: 0.25rem;
+    width: 85%;
+    max-width: 1000px;
+    min-height: 50px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.cityItem{
+    font-size: 25px;
+    text-decoration: underline;
+    cursor: pointer;
+    color: #3481bc;
+    padding-left:10px;
+    padding-right:10px;
 }
 
-.App-link {
-  color: #61dafb;
+.searchInput{
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #4f4f4f;
+    border: 1px solid #bdbdbd;
+    border-radius: 0.25rem 0 0 0.25rem;
+}
+.searchInput:focus{
+    outline-color:grey;
+}
+.searchButton{
+    text-transform: uppercase;
+    border: 0;
+    -webkit-box-shadow: 0 2px 5px 0 rgb(0 0 0 / 20%), 0 2px 10px 0 rgb(0 0 0 / 10%);
+    box-shadow: 0 2px 5px 0 rgb(0 0 0 / 20%), 0 2px 10px 0 rgb(0 0 0 / 10%);
+    padding: 0.625rem 1.5rem 0.5rem;
+    border-radius: 0 0.25rem 0.25rem 0;
+    color: #fff;
+    background-color: #61b952;
+
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
