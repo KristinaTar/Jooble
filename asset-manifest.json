@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/Jooble/static/css/main.13cb9bf2.chunk.css",
+    "main.js": "/Jooble/static/js/main.aaa609a5.chunk.js",
+    "main.js.map": "/Jooble/static/js/main.aaa609a5.chunk.js.map",
+    "runtime-main.js": "/Jooble/static/js/runtime-main.3c03d258.js",
+    "runtime-main.js.map": "/Jooble/static/js/runtime-main.3c03d258.js.map",
+    "static/js/2.1423717c.chunk.js": "/Jooble/static/js/2.1423717c.chunk.js",
+    "static/js/2.1423717c.chunk.js.map": "/Jooble/static/js/2.1423717c.chunk.js.map",
+    "index.html": "/Jooble/index.html",
+    "static/css/main.13cb9bf2.chunk.css.map": "/Jooble/static/css/main.13cb9bf2.chunk.css.map",
+    "static/js/2.1423717c.chunk.js.LICENSE.txt": "/Jooble/static/js/2.1423717c.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.3c03d258.js",
+    "static/js/2.1423717c.chunk.js",
+    "static/css/main.13cb9bf2.chunk.css",
+    "static/js/main.aaa609a5.chunk.js"
+  ]
+}
